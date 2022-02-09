@@ -1,5 +1,5 @@
 {
-  "name": "vite-boilerplate",
+  "name": "bewerbungsmanagement",
   "version": "0.0.0",
   "scripts": {
     "client:dev": "vite",
