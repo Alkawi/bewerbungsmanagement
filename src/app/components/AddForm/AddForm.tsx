@@ -7,17 +7,17 @@ function AddForm(): JSX.Element {
       <label>
         Unternehmen
         <br />
-        <input type="text" placeholder="Muster GmbH" />
+        <input type="text" placeholder="Muster GmbH" required />
       </label>
       <label>
         Stellenbezeichnung
         <br />
-        <input type="text" placeholder="Web Developer" />
+        <input type="text" placeholder="Web Developer" required />
       </label>
       <label>
         Datum der Bewerbung
         <br />
-        <input type="date" />
+        <input type="date" required />
       </label>
       <label>
         Ansprechpartner*in
