@@ -1,5 +1,6 @@
 .form-container {
   display: grid;
+  justify-content: center;
   border: 1px solid gray;
   padding: 1rem;
   border-radius: 5px;
