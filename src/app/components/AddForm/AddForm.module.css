@@ -1,0 +1,21 @@
+.form-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--color-background-light);
+}
+
+.form-input {
+  width: 20rem;
+  border-radius: 0.3rem;
+  border: 0;
+  padding: 0.25rem 0.5rem;
+}
+
+.form-input:focus {
+  outline: var(--color-background-dark) solid 2px;
+}
